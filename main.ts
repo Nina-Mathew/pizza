@@ -11,7 +11,6 @@ let Labour_Rent = Labour_cost + Rent
 let HST = 1.13
 let Price = Labour_Rent + Original_cost
 let Total_Cost = Price * HST
-game.splash("")
 game.splash("The total cost of the pizza is ", convertToText(Math.round(Total_Cost)))
 let mySprite = sprites.create(img`
     .............beebbbb............
